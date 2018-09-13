@@ -1,0 +1,26 @@
+{
+    "name": "zeroibc/ding-ding-robot",
+    "description": "钉钉机器人，通知，报警，机器人，webhook",
+    "keywords": [
+        "thinkphp",
+        "framework",
+        "钉钉",
+        "日志报警"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zeroibc",
+            "email": "zeroibc@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Zeroibc\\DingDingRobot\\":"src"
+        }
+    }
+}
